@@ -17,19 +17,17 @@ class Game {
     const deck = new Deck(cards);
     const round = new Round(deck);
     this.currentRound = round;
-    console.log(this.currentRound);
     this.printMessage(deck, round);
     this.printQuestion(round);
   }
 
-
-  printMessage(deck, round) {
-      console.log(`Welcome to FlashCards! You are playing with ${deck.countCards()} cards.
+  printMessage(deck) {
+    console.log(`Welcome to FlashCards! You are playing with ${deck.countCards()} cards.
 -----------------------------------------------------------------------`)
   }
 
   printQuestion(round) {
-      util.main(round);
+    util.main(round);
   }
 }
 

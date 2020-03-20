@@ -18,7 +18,7 @@ class Turn {
       this.guessCorrect = false;
       return this.guessCorrect;
     }
-    giveFeedback();
+    this.giveFeedback();
   }
   giveFeedback() {
     if (this.guessCorrect) {
@@ -27,6 +27,6 @@ class Turn {
       return 'incorrect!';
     }
   }
-};
+}
 
 module.exports = Turn;

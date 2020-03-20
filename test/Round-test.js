@@ -78,7 +78,7 @@ describe('Round', function() {
     round.takeTurn('sea otter');
     round.takeTurn('spleen');
     round.takeTurn('listening to music');
-    expect(round.calculateAccuracy()).to.equal(33);
+    expect(round.percentageCorrect).to.equal(33);
   });
 
 });
