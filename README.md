@@ -4,7 +4,7 @@
 
 This project was to write a program to simulate a set of flashcards to be played through the command line. In doing so, we were challenged to create multiple, small class to practice modular code that followed single responsibility principle. Additionally, this project was excellent practice in implementing code using TDD.
 
-![flashcards application gif](https://asciinema.org/a/TOXY0GEl4H5AiG1ls3UQFDSEZ.svg)](https://asciinema.org/a/TOXY0GEl4H5AiG1ls3UQFDSEZ)
+[![asciicast](https://asciinema.org/a/TOXY0GEl4H5AiG1ls3UQFDSEZ.svg)](https://asciinema.org/a/TOXY0GEl4H5AiG1ls3UQFDSEZ)
 
 ## Setup
 
