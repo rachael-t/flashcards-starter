@@ -18,7 +18,6 @@ class Turn {
       this.guessCorrect = false;
       return this.guessCorrect;
     }
-    this.giveFeedback();
   }
   giveFeedback() {
     if (this.guessCorrect) {
